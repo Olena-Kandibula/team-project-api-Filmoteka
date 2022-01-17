@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://alexanderkorobchenko.github.io/team-project_Filmoteka",
+  "homepage": "https://Olena-Kandibulao.github.io/team-project-api-Filmotekaa",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /team-project_Filmoteka/"
+    "build": "parcel build src/*.html --public-url /team-project-api-Filmoteka/"
   },
   "repository": {
     "type": "git",
