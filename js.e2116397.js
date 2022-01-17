@@ -125,4 +125,4 @@ module.exports=[{fName:"Alexander",sName:"Korobchenko",photo:"https://raw.github
 },{"./apiService.js":"eQwa","./request-genres":"NDLo"}],"QvaY":[function(require,module,exports) {
 "use strict";require("tui-pagination/dist/tui-pagination.css"),require("../sass/main.scss"),require("./verify-localstorage"),require("./tui_pagination"),require("./request-popular-movies"),require("./request-id-movie"),require("./request-genres"),require("./gradient-granim.js"),require("./disableEnter.js"),require("./request-input-movies"),require("./switch-home-liberary"),require("./team-modal"),require("./switch-language");
 },{"tui-pagination/dist/tui-pagination.css":"UYQs","../sass/main.scss":"clu1","./verify-localstorage":"tWC3","./tui_pagination":"MUz5","./request-popular-movies":"L3If","./request-id-movie":"I0GR","./request-genres":"NDLo","./gradient-granim.js":"bges","./disableEnter.js":"dlAV","./request-input-movies":"X6Ll","./switch-home-liberary":"O06f","./team-modal":"SVxB","./switch-language":"rZVL"}]},{},["QvaY"], null)
-//# sourceMappingURL=/team-project_Filmoteka/js.6c4dbc8c.js.map
+//# sourceMappingURL=/team-project-api-Filmoteka/js.e2116397.js.map
