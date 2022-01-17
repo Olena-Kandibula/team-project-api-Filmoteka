@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Filmoteka</title>
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+  <style>
+    @font-face {
+      font-family: 'Roboto';
+      src: url('./fonts/Roboto-Regular.ttf');
+      font-weight: 400;
+      font-display: fallback;
+    }
+
+    @font-face {
+      font-family: 'Roboto';
+      src: url('./fonts/Roboto-Medium.ttf');
+      font-weight: 500;
+      font-display: fallback;
+    }
+  </style>
+</head>
+
+<body>
+  <include src="./partials/loader.html"></include>
+  <include src="./partials/button-go-up.html"></include>
+
+  <include src="./partials/switches.html"></include>
+
+  <include src="./partials/header.html"></include>
+  <include src="./partials/main.html"></include>
+  <include src="./partials/footer.html"></include>
+
+  <include src="./partials/modal-window.html"></include>
+
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

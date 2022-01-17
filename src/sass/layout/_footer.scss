@@ -1,0 +1,54 @@
+.footer {
+  padding: 30px 0px;
+  background-color: $bcg-footer-color;
+}
+
+.footer__text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.19;
+    color: $footer-text-color;
+}
+
+.footer__btn-open-modal-team {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+// mobile
+@media screen and (max-width: 767px) {
+  .footer__text {
+    font-size: 14px;
+    line-height: 1.14;
+  }
+  
+  .footer__second-text {
+    display: inline-block;
+    margin-top: 10px;
+  }
+}
+
+// сердечко)
+@keyframes heart {
+  50% {transform: scale( 1.2 )}
+}
+
+@keyframes heartbeat {
+  0% {transform: scale( 1 )}
+  20% {transform: scale( 1.25 )}
+  40% {transform: scale( 1 )}
+  60% {transform: scale( 1.25 )}
+  80% {transform: scale( 1 )}
+  100% {transform: scale( 1 )}
+}
+
+.footer__heart {
+   width: 14px;
+   height: 14px;
+   margin: 0px 7px;
+   animation: heart 1s infinite;
+}
+
+.footer__heart:hover {
+    animation: heartbeat 1s infinite;
+}
